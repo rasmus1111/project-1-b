@@ -12,4 +12,13 @@ h1, h2, h3 {
     letter-spacing: 3px;
     text-transform: uppercase;
 
+
+}
+
+h1 {
+    float: left;
+    margin-left: 40px;
+    font-size: 35px;
+
+
 }
