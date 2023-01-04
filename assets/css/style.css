@@ -15,10 +15,41 @@ h1, h2, h3 {
 
 }
 
-h1 {
+#logo, h1 {
     float: left;
     margin-left: 40px;
     font-size: 35px;
-
-
 }
+
+#menu-bar, li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+#menu-bar, a {
+    text-decoration: none;
+    color: rgb(46, 10, 10);
+}
+#img-text{
+    display: flex;
+    width: 100%;
+}
+
+#jiu-jitsu-img {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+    background: url('../images/pexels-photo-6765023.webp') no-repeat center center;
+    
+}
+#side-text {
+    float: right;
+  margin-top: 40px;
+  width: 30%;
+  margin: auto;
+  
+  text-align: center;
+  font-size: 180%;
+}
+
