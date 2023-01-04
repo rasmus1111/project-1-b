@@ -29,7 +29,8 @@ h1, h2, h3 {
 }
 #menu-bar, a {
     text-decoration: none;
-    color: rgb(46, 10, 10);
+    color: rgb(39, 30, 40);
+    text-transform: uppercase;
 }
 #img-text{
     display: flex;
@@ -44,12 +45,17 @@ h1, h2, h3 {
     
 }
 #side-text {
-    float: right;
-  margin-top: 40px;
+  float: right;
   width: 30%;
   margin: auto;
   
   text-align: center;
   font-size: 180%;
+}
+footer {
+    height: 200px;
+}
+#social ul {
+    
 }
 
