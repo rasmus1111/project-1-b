@@ -1,2 +1,15 @@
 @import  url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,400;1,300&family=Source+Sans+Pro:ital,wght@1,300&display=swap'); 
-*
+ 
+body{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    color: rgb(26, 26, 26);
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, Sans;
+    color: rgb(46, 45, 45);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
