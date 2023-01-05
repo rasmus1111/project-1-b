@@ -34,28 +34,43 @@ h1, h2, h3 {
 }
 #img-text{
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
 #jiu-jitsu-img {
-    width: 50%;
+    flex: 50%;
     height: 500px;
-    overflow: hidden;
+   
     background: url('../images/pexels-photo-6765023.webp') no-repeat center center;
     
 }
 #side-text {
-  float: right;
+  flex: 50%;
   width: 30%;
   margin: auto;
   
   text-align: center;
   font-size: 180%;
 }
+
+/* Screens under 800px */
+@media (max-width: 800px) {
+    #img-text {
+      flex-direction: column;
+      height: 1200px;
+    }
+    #side-text {
+        width: fit-content;
+    }
+     }
+    
+
 footer {
-    height: 200px;
-}
-#social ul {
+    font-size: 40px;
+    margin: auto;
+    padding-top: 30px;
+
     
 }
 
