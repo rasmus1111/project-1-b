@@ -12,6 +12,7 @@ h1, h2, h3 {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -23,13 +24,14 @@ h1#logo {
     margin-left: 40px;
     font-size: 35px;
 }
-
+   /* For menu bar style */
 #menu-bar li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
-    font-size: 20px;
+    font-size: 25px;
 }
+
 #menu-bar a {
     text-decoration: none;
     color: rgb(39, 30, 40);
@@ -37,10 +39,17 @@ h1#logo {
 }
 
 #menu-bar a:hover{
-    border-top: 3px solid rgb(34, 3, 3);
+    color: rgb(46, 27, 185);
+    border-top: 3px solid  rgb(46, 27, 185);
+}
+
+.maintain-border {
+    color: rgb(46, 27, 185);
+    border-top: 3px solid  rgb(46, 27, 185);
 }
 
 /* For image and text next to the image (home page) */
+
 #img-text{
     display: flex;
     flex-direction: row;
@@ -79,6 +88,7 @@ h1#logo {
     flex-direction:row;
     
 }
+
 footer {
     display: flex;
     align-items: center;
@@ -91,6 +101,6 @@ footer {
     padding: 0 40px;
     font-size: 20px;
     color: black;
-    
+
 }
 
