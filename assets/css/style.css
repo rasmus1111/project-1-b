@@ -11,8 +11,10 @@ h1, h2, h3 {
     color: rgb(46, 45, 45);
     letter-spacing: 3px;
     text-transform: uppercase;
-
-
+}
+header {
+    display: flex;
+    flex-direction: column;
 }
 
 h1#logo {
@@ -27,11 +29,12 @@ h1#logo {
     margin-right: 40px;
     font-size: 20px;
 }
-#menu-bar, a {
+#menu-bar a {
     text-decoration: none;
     color: rgb(39, 30, 40);
     text-transform: uppercase;
 }
+
 #menu-bar a:hover{
     border-top: 3px solid rgb(34, 3, 3);
 }
@@ -46,20 +49,18 @@ h1#logo {
 #jiu-jitsu-img {
     flex: 50%;
     height: 500px;
-   
     background: url('../images/pexels-photo-6765023.webp') no-repeat center center;
-    
-}
-#side-text {
-  flex: 50%;
-  width: 30%;
-  margin: auto;
-  
-  text-align: center;
-  font-size: 180%;
 }
 
-/* Screens under 800px */
+#side-text {
+  flex: 50%;
+  text-align: center;
+  font-size: 180%;
+  padding: 0 15px;
+  margin: auto;
+}
+
+/* For Screens under 800px */
 @media (max-width: 800px) {
     #img-text {
       flex-direction: column;
@@ -69,7 +70,8 @@ h1#logo {
         width: fit-content;
     }
      }
-    
+
+    /* For the footer design */
 
 .social-network  {
     display: flex;
@@ -88,6 +90,8 @@ footer {
 .social-network div {
     padding: 0 40px;
     font-size: 20px;
+    color: black;
+
     
 }
 
