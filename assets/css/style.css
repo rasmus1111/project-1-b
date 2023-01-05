@@ -32,6 +32,7 @@ h1, h2, h3 {
     color: rgb(39, 30, 40);
     text-transform: uppercase;
 }
+/* For image and text next to the image (home page) */
 #img-text{
     display: flex;
     flex-direction: row;
@@ -66,11 +67,7 @@ h1, h2, h3 {
      }
     
 
-footer {
-    font-size: 40px;
-    margin: auto;
-    padding-top: 30px;
-
-    
+.social-network{
+    text-align: center;
 }
 
