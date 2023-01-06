@@ -65,19 +65,29 @@ h1#logo {
 #side-text {
   flex: 50%;
   text-align: center;
-  font-size: 180%;
-  padding: 0 15px;
-  margin: auto;
+  font-size: 200%;
+
 }
 
+#join {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 30px 15%;
+    
+}
+
+
 /* For Screens under 800px */
+
 @media (max-width: 800px) {
     #img-text {
       flex-direction: column;
       height: 1200px;
     }
     #side-text {
-        width: fit-content;
+        width: 100%;
+        
     }
      }
 
@@ -103,11 +113,5 @@ footer {
     color: black;
 }
 
-#join {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 20px;
-    
 
-}
+1
