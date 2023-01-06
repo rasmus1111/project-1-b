@@ -81,8 +81,9 @@ form label {
     padding: 10px 20px;
 }
 
+/* Looked up flex box for changing screen size in google */
 /* For Screens under 800px */
-
+ 
 @media (max-width: 800px) {
     #img-text {
       flex-direction: column;
